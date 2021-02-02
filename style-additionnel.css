@@ -75,3 +75,11 @@ a:focus, a:hover{
 button:focus, button:hover{
     border: 5px solid #424242;
 }
+
+/* Augmentation de l'espace autout des liens du footer pour la version mobile */
+
+@media (max-width: 767px){
+    footer li{
+        margin: 15px 0!important;
+    }
+}
