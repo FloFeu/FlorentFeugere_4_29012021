@@ -307,8 +307,8 @@ a:hover {
     display: inline;
 }
 
-.navbar-brand img{
-    width: 75%;
+.navbar-brand img[src$=svg] {
+    min-width: 100px;
 }
 
 .nav-center .navbar-brand img {
@@ -677,15 +677,7 @@ a {
 }
 
 p {
-    font-size: 14px;
-}
-
-.quote{
-    font-style:italic;
-}
-
-.quote-autor{
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -749,7 +741,6 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    margin: auto;
 }
 
 .portfolio-row {

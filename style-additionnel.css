@@ -1,0 +1,77 @@
+/* Augmentation de la taille de la police */
+p{
+    font-size: 16px;
+}
+
+/* Augmentation du contraste des textes */
+.btn-atomic-tangerine{
+    color: #424242!important;
+}
+
+/* "Prêt pour redonner vie à votre projet?" */
+#bloc-5-cta {
+    background-color: black; 
+}
+
+/* Opacité de la texture papier diminuée */
+#bloc-5-cta.texture-paper::before{
+    opacity: 0.5;
+}
+
+/* Centrage des images du portfolio en version mobile */
+
+@media (max-width: 767px){
+    .portfolio-thumb{
+        margin: auto;
+    }
+}
+
+/* Contraste texte du footer */
+#bloc-8 p{
+    color: #424242!important;
+}
+
+#bloc-8 .fa{
+    color: #424242!important;
+}
+
+#bloc-8 .col-sm-4{
+    color: #424242!important;
+    font-size: 14px;
+}
+
+#bloc-8 .col-sm-4 ul{
+    list-style: none;
+}
+
+#bloc-8 ul a{
+    color: #424242!important;
+}
+
+
+/* Page Contact */
+
+/* Contraste des couleurs */
+
+#bloc-6 h1{
+    color: #424242!important;
+}
+
+#bloc-6 p{
+    color: #424242!important;
+}
+
+/* Positionnement de l'adresse */
+.loc{
+    text-align: center;
+}
+
+/* Rendre les éléments interactifs visible au focus */
+
+a:focus, a:hover{
+    border: 5px solid #424242;
+}
+
+button:focus, button:hover{
+    border: 5px solid #424242;
+}
